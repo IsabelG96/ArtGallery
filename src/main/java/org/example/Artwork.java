@@ -13,12 +13,19 @@ public class Artwork {
         this.price = price;
         }
 
-    public void getArtist(Artist artist){
 
+//     GETTERS AND SETTERS
+
+    public String getTitle(){
+        return this.title;
+    }
+
+    public double getPrice(){
+        return this.price;
+    }
+
+    public void getArtist(Artist artist){
         this.artist = artist.getName();
 
     }
-
-
-
 }
